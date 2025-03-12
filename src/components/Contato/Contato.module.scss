@@ -1,0 +1,66 @@
+.containerContato {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+  width: 100%;
+  background-color: #111;
+
+  .title {
+    color: #C31926;
+  }
+
+  h1 {
+    color: #fff;
+  }
+
+  .contatos {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 20px 0;
+
+    p, a {
+      color: #aaa;
+      padding: 5px 10px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: .5s;
+
+      &:hover {
+        color: #C31926;
+        border-color: transparent;
+        box-shadow: 0px 0px 4px 4px #C31926;
+      }
+    }
+  }
+
+  .message {
+    position: fixed;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    bottom: 50px;
+    right: 20px;
+    width: 450px;
+    background-color: #000;
+    color: #aaa;
+    padding: 20px 40px;
+    border: 1px solid #C31926;
+    border-radius: 10px;
+    transition: .5s;
+
+    p {
+      flex-grow: 1;
+    }
+
+    svg {
+      cursor: pointer;
+    }
+
+    &.showMessage {
+      opacity: 1;
+    }
+  }
+}
