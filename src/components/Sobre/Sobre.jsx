@@ -19,7 +19,7 @@ const Sobre = () => {
         <div>
           <IoMdBook size={30} />
           <h2>Minha Educação</h2>
-          <p>Quando começei a programar era mais como um hobby, então fiz muitos cursos pela internet, sem pretensões de cursar uma faculdade. Esses cursos me derem uma base muito sólida de lógica, estrutura e raciocínio, o que atualmente me ajuda muito na faculdade que faço. </p>
+          <p>Quando começei a programar era mais como um hobby, então fiz muitos cursos pela internet, sem pretensões de cursar uma faculdade. Esses cursos me deram uma base muito sólida de lógica, estrutura e raciocínio, o que atualmente me ajuda muito na faculdade que faço. </p>
         </div>
         <div>
           <BsTools size={30} />
