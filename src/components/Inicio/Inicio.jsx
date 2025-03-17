@@ -6,6 +6,7 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 // Imagens
 import foto from "../../assets/Images/foto.jpg"
+import foto2 from "../../assets/Images/foto2.jpg"
 
 const Inicio = () => {
   return (
